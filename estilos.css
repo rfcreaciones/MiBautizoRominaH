@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.visible{
+    visibility: hidden;
+}
+
+
+
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    overflow: hidden;
+    margin: auto;
+    padding: 50px 0;/*  espacio entre secciones */
+}
+
+
+.header{
+    height: 100vh;
+    /* 02 */
+    background-image: linear-gradient(to top, #e4c4da00 0%, hsla(0, 0%, 97%, 0) 100%), url(img/portada-horzontal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+   
+}
+
+
+
+.head{
+
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    position: relative;
+
+}
+
+
+.subtitulo-head{
+    position: absolute;
+    bottom: 80px;
+
+}
+.img-principal{
+
+    width: 90%;
+  
+}
+
+.img-fecha{
+    
+    width: 30%;
+    bottom: 0;
+    
+}
+.silueta{
+
+    width: 25%;
+  
+}
+
+/* animacion de encabezado nuestro bautizo */
+.encabezado{
+
+    color:#917c07f1;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 55px;
+    background-color: #eeede8;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    animation:  enhance-header linear both;
+    animation-timeline: scroll(root);
+    animation-range:0 200px;
+    }
+    
+    
+    
+    
+    @keyframes enhance-header {
+        to{
+    
+            background: rgba(255,255,255,.4);
+            backdrop-filter: blur(5px);
+            font-size: 35px;
+            color:#473d02ec;
+        }
+        
+    }
+/* fin de animacion encabezado bautizo
+ */
+
+
+
+.nombre-festejada{
+    color: #b4901b ;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.titulo-invitacion{
+    color: #ffffff ;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    animation: animate 2s ease-in-out infinite alternate;
+}
+
+@keyframes animate {
+    from{
+        text-shadow:  0 0 20px #a2ab28;
+    }
+    to{
+        text-shadow: 0 0 40px #a2ab28,
+                    0 0 10px #a2ab28;
+    }
+    
+}
+
+h2{
+    color: #b1700f ;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+
+}
+
+
+
+h3{
+
+    font-family: 'Dancing Script', cursive;
+}
+h4{
+
+    font-family: 'Dancing Script', cursive;
+}
+
+.card{
+ 
+    object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: block;
+   
+}
+
+.pensamiento {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* vh es la altura del dispositivo */
+    height: 65vh;  
+
+    /* fallback for old browsers */
+
+    background-image: linear-gradient(to top, #b582a600 0%, hsla(0, 0%, 97%, 0) 100%), url(img/fondo-pensamiento.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+ 
+
+    position:relative;
+}
+.pensamiento h3{
+    font-size: 40px;
+}
+
+
+.confirmacion {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* vh es la altura del dispositivo */
+    height: 95vh;  
+
+    /* fallback for old browsers */
+
+    background-image: linear-gradient(to top, #b582a600 0%, hsla(0, 0%, 97%, 0) 100%), url(img/fondo-pensamiento.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
+
+    position:relative;
+
+
+
+}
+
+.confirmacion-servicio{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffffffbe 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    border-radius: 30px;
+    text-align: center;
+    
+}
+
+
+
+/* PAGINA GENERADORA DE BOTONES   https://markodenic.com/tools/buttons-generator/ */
+
+.css-button-gradient--3 {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-size: 120% auto;
+    background-image: linear-gradient(315deg,  #917c07f1 0%,  #e6dca7f1 75%);
+
+
+
+   
+  }
+  .css-button-gradient--3:hover {
+    background-position: right center;
+  }
+  .css-button-gradient--3:active {
+    top: 2px;
+  }
+
+/* FIN DE BOTON */
+
+.textos-cuenta{
+    text-align: center;
+    align-items: center;
+}
+.textos-alert-inicio{
+    font-size: 25px;
+    font-weight:lighter;
+    color:#000000;
+    font-family: 'Dancing Script', cursive;
+}
+
+.textos-alert-inicio-T2{
+    font-size: 35px;
+    font-weight:lighter;
+    color:#917c07f1;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+.textos-alert-inicio-T3{
+    font-size: 15px;
+    font-weight:lighter;
+    color:#000000;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+
+
+.spread{
+    transform: translateX(0);
+}
+
+.menu-navegacion a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.titulo{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* Services */
+
+.subtitulo{
+    /* color: #9f8ad0; */
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.contenedor-servicio img{
+    width: 40%;
+ 
+}
+
+.checklist-servicio{
+    width: 45%;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.service{
+    margin-bottom: 20px;
+}
+
+.n-service{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+
+}
+
+.number{
+    display: inline-block;
+    /* 02 */
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.gallery{
+    background: #f2f2f2;
+}
+
+.vestimenta{
+    width: 40%;
+}
+
+.contenedor-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.img-galeria{
+    width: 30%;
+    display: block;
+    margin-bottom: 15px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+
+.imagen-light{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.534);
+    transform: translate(100%);
+    transition: transform .2s ease-in-out;
+    z-index: 9;
+}
+
+.agregar-imagen{
+    width: 60%;
+    transform: scale(0);
+    border-radius: 10px;
+    transition: transform .3s .2s;
+}
+
+.showImage{
+    transform: scale(1);
+}
+
+.show{
+    transform: translate(0);
+}
+
+.close{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.experts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, #e2b04367 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    border-radius: 30px;
+}
+
+.cont-expert{
+    width: 30%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cont-expert img{
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
+.n-expert{
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+footer{
+    background: #eeede8;
+    padding-bottom: 0.1px;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+  
+}
+
+
+.contact-us{
+    width: 50%;
+    color: #000000;
+}
+
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.brand+p{
+    font-weight: 500;
+}
+
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+}
+
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+}
+
+.social-media-icon:hover{
+    background: #fff;
+    color:#764ba2;
+}
+
+@media screen and (max-width: 800px){
+
+
+    .head{
+
+        height: 100%;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: #fff;
+    
+    }
+
+
+    .menu-navegacion{
+        width: 50vw;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .contenedor-servicio img{
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+    .checklist-servicio{
+        width: 80%;
+    }
+
+    .service{
+        margin-bottom: 30px;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregarImagen{
+        width: 80%;
+    }
+
+    
+    .cont-expert{
+        width: 80%;
+    }
+    
+    .footer-content{
+        justify-content: center;
+    }
+
+    .social-media{
+        width: 80%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+
+
+    .header{
+        height: 100vh;
+        /* 02 */
+        background-image: linear-gradient(to top, rgba(235, 207, 234, 0.199) 0%, hsla(0, 0%, 97%, 0) 100%), url(img/portada-vertical.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+      
+     
+       
+    }
+    .head{
+
+        
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        color: #fff;
+        position: relative;
+    }
+
+
+    .subtitulo-head{
+        position: absolute;
+       margin-bottom: 0;
+
+    }
+    .img-principal{
+    
+        width: 85%;
+    }
+    .img-fecha{
+    
+        width: 90%;
+        
+    }
+    .pensamiento h3{
+        font-size: 22px;
+    }
+
+
+    .menu-navegacion{
+        width: 65vw;
+    }
+
+    .hamburguer{
+        top: 20px;
+        right: 20px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .subtitulo{
+        font-size: 30px;
+    }
+
+    .img-galeria{
+        width: 45%;
+    }
+    
+    .agregar-imagen{
+        width: 90%;
+    }
+
+    .social-media{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .social-media-icon{
+        margin-left: 0;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 95%;
+        margin-bottom: 40px;
+    }
+    
+
+
+
+
+
+}
