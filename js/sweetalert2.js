@@ -5,14 +5,14 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Claudia Ventura Reyes <br> y<br> J. Alejandro Ensástigue Velazquez</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia a la presentación de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Camila Alejandra Ensástigue Ventura</p></div>',
+	html:'<p class="textos-alert-inicio">Claudia Ventura Reyes <br> y<br>J. Alejandro Ensástigue Velazquez</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable al cumpleñaos de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Camila Alejandra Ensastigue Ventura</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
-	confirmButtonColor: "#917c07f1",
+	confirmButtonColor: "#cdec06",
 	footer:'Te Esperamos, No Faltes!',
 	width:'100%',
 	allowOutsideClick: false,
-	// background: '#fff url(img/indx.jpg)',
+	// background: '#fff url(img/fondo2.jpg)',
 	
 	// background:'rgba(0,0,123,0.4)'
 	// imageUrl: 'https://unsplash.it/400/200',
@@ -25,7 +25,9 @@ Swal.fire({
 		audio.play();
 		$('.volumen').attr("src","img/no-sound.png");
 		$('div').removeClass('visible')
-	
+		
+		$( "#onload" ).fadeOut(5000);
+		$("body").removeClass("hidden");
 
 
 	}
@@ -34,52 +36,47 @@ Swal.fire({
 
 
 
-$('#ceremonia').click(function () {
-Swal.fire({
-	title:'Ubicación de la Ceremonía ',
-	//text: '',
-	html:'<p>Parroquia de Santiago Apóstol<br></p><div class="contact-map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471.1941640015138!2d-98.80220109683962!3d19.12724234856114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce3d0595581a85%3A0xcf1880778e1751fb!2sParroquia%20de%20Santiago%20Ap%C3%B3stol!5e0!3m2!1ses!2smx!4v1717546539082!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
-	//icon:'success'
-	confirmButtonText:'Cerrar',
-	confirmButtonColor: "#917c07f1",
-	//footer:'Parroquia de Dulce Nombre de Jesus ',
 
-});
-});
 
 $('#recepcion').click(function () {
 	Swal.fire({
 		title:'Ubicación de la Recepción ',
 		//text: '',
 	
-		html:'<p>Calle El arenal sin número, barrio La Capilla, Ayapango Estado de México </p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d471.1966075558137!2d-98.79471324825357!3d19.126385591001803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2smx!4v1717548108899!5m2!1ses!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
+		html:'<p>Calle el Arenal S/N Ayapango Estado de México</p><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1371.7995771926333!2d-98.7939594180679!3d19.12615633045758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scalle%20el%20arenal%20ayapango%20edomx!5e0!3m2!1ses-419!2smx!4v1746141805487!5m2!1ses-419!2smx" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>',
 		//icon:'success'
 		confirmButtonText:'Cerrar',
-		confirmButtonColor: "#917c07f1",
 		//footer:'Parroquia de Dulce Nombre de Jesus ',
 	
 	});
-});
+	});
 	
-
-$('#transferencia').click(function () {
+	$('#liverpool').click(function () {
 		Swal.fire({
-			title:'Datos para Transferencia',
+			title:'Mesa de regalos Liverpool',
 			//text: '',
 		
-			html:'<p>Cuenta BBVA<p/><br>Clabe: 9999999999',
+			html:'<p>Número de Evento: 12345678<p/><br> <a href="https://mesaderegalos.liverpool.com.mx/eventodebusqueda" target="_blank"> Ir a Liverpool</a>',
 			//icon:'success'
 			confirmButtonText:'Cerrar',
-			confirmButtonColor: "#e74bb8",
+			confirmButtonColor: "#917c07f1",
 			//footer:'Parroquia de Dulce Nombre de Jesus ',
 		
 		});
-});
+	});
 	
-
-
-
-
-
-
-
+	$('#transferencia').click(function () {
+			Swal.fire({
+				title:'Datos para Transferencia',
+				//text: '',
+			
+				html:'<p>Cuenta BBVA<p/><p>Nombre: Nombre de Cuenta<p/><br>Clabe: 0101234567891011',
+				//icon:'success'
+				confirmButtonText:'Cerrar',
+				confirmButtonColor: "#917c07f1",
+				//footer:'Parroquia de Dulce Nombre de Jesus ',
+			
+			});
+	});
+		
+	
