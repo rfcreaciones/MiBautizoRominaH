@@ -44,6 +44,7 @@
 	font-size: 25px;
 	color: black;
 	text-align: center;
+
 }
 
 
@@ -78,7 +79,7 @@
 	display: block;
 	font-size: 20px;
 	font-weight: 800;
-	color: rgb(59, 56, 5);
+	color: #0077FF;
 	font-family: 'Dancing Script', cursive;
 	text-align: center;
 }
@@ -86,8 +87,9 @@
 .simply-word {
 	font-weight: 400;
 	font-size: 15px;
-	color: rgb(59, 56, 5);
+	color:RED;
 	text-align: center;
+
 }
 
 }

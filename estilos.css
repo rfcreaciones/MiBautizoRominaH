@@ -142,8 +142,8 @@ LOADER */
 /* animacion de encabezado CONTADOR */
 .encabezado{
 
-    color:#635505ec;
-    font-family: 'Dancing Script', cursive;
+    color:#007bff;
+    font-family: "Jokerman", cursive;
     text-align: center;
     /* font-size: 55px; */
     background-color: #eaeee8;
@@ -151,7 +151,7 @@ LOADER */
     padding: 10px;
     margin: 0;
     width: 100%;
-    height: 115px;
+    height: 120px;
     position: fixed;
     top: 0;
     left: 0;
@@ -203,7 +203,14 @@ LOADER */
     color: #fff;
 
 }
-
+.textos-header {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+ background-image: url(img/fondo1.jpg);
+}
 
  .pensamiento {
     
@@ -216,9 +223,8 @@ LOADER */
 
     /* fallback for old browsers */
 
-    background: #eeede8;
+    background-image: url(img/fondo2.jpg);
     background-size: cover;
-
     position:relative;
 }
 .pensamiento H4{
@@ -226,7 +232,7 @@ LOADER */
 }
 
 .pensamiento img{
-    height: 60px;
+    height: 150px;
     animation: movimiento 2.5s linear infinite;
     
 }
@@ -236,18 +242,23 @@ LOADER */
 
 
 h2{
-    color:#ec9806ec;
+    color:#007bff;
     text-align: center;
 }
 
 h3{
 
     font-family: 'Dancing Script', cursive;
+
 }
 h4{
 
     font-family: 'Dancing Script', cursive;
 }
+.cumpleaños img{
+     height: 150px;
+    animation: movimiento 2.5s linear infinite;
+    }
 
 
 .card{
@@ -276,7 +287,7 @@ h4{
     border-radius: 5px;
     border: none;
     background-size: 120% auto;
-    background-image: linear-gradient(315deg, rgb(236, 248, 9) 0%, #bcf51e 75%);
+    background-image: linear-gradient(315deg, rgb(9, 152, 248) 0%, #00344c 75%);
   }
   .css-button-gradient--3:hover {
     background-position: right center;
@@ -290,23 +301,23 @@ h4{
 /* TEXTOS DEL SW ALERT EN EL JAVA SCRIPT */
 
 .textos-alert-inicio{
-    font-size: 25px;
+    font-size: 33px;
     font-weight:lighter;
-    color:#000000;
+    color:#002E6E;
     font-family: 'Dancing Script', cursive;
 }
 
 .textos-alert-inicio-T2{
     font-size: 40px;
     font-weight:lighter;
-    color:#cdec06;
+    color:#cf352e;
     font-family: "Jokerman", cursive;
     text-align: center;
 }
 
 .textos-alert-inicio-T3{
-    font-size: 15px;
-    font-weight:lighter;
+    font-size: 14px;
+    
     color:#000000;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
@@ -315,7 +326,7 @@ h4{
 
 .donde {
     height: 100vh;
-    background-image: url(img/donde.jpg);
+    background-image: url(img/fondo3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -348,7 +359,8 @@ h4{
 
 
 .Jokerman {
-    font-family: "Jokerman", cursive;
+
+    font-family: 'Jokerman', sans-serif;
     font-weight: 200;
     font-style: normal;
     font-size: 40px;
@@ -361,8 +373,10 @@ h4{
     align-items: center;
     flex-wrap: wrap;
 }
-
-
+.animacion{
+    width: 40%;
+    animation: movimiento 2.5s linear infinite;
+}
 .contenedor-servicio img{
     width: 40%;
     animation: movimiento 2.5s linear infinite;
@@ -412,7 +426,13 @@ h4{
 }
 
 .gallery{
-    background: #f2f2f2;
+    
+   background-image: url(img/fondo3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
 }
 
 .contenedor-galeria{
@@ -469,15 +489,31 @@ h4{
     cursor: pointer;
 }
 
+
+.padres{
+    height: 110vh;
+    background-image: url(img/fondo2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    border-radius: 30px;
+}
+
 .experts{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    background: #d1d08b88;
     border-radius: 30px;
 }
+
 
 .chambelan{
     width: 100%;
@@ -500,6 +536,7 @@ h4{
     width: 80%;
 }
 .cont-expert{
+
     width: 30%;
     text-align: center;
     margin-bottom: 20px;
@@ -511,12 +548,22 @@ h4{
     margin: auto;
     width: 80%;
 }
+.n-padres{
+    color:#ffffffec;
+    font-size: 25px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 400;
+    
+}
 
 .n-expert{
     width: 100%;
     display: inline-block;
     margin-top: 20px;
     font-weight: 400;
+    
 }
 
 footer{
@@ -549,7 +596,13 @@ footer{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-image: linear-gradient(to top, #d1d08b88 0%, hsla(0, 0%, 97%, 0.493) 100%);
+
+    background-image: url(img/confimacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    
     border-radius: 30px;
     text-align: center;
     
