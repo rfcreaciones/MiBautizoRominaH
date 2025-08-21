@@ -20,11 +20,13 @@ body{
 
 }
 
+
 .img-principal{
     position:relative;
-    bottom: 250px;
+    bottom: 150px;
     
 }
+
 
 .loader{
     background: white;
@@ -210,6 +212,7 @@ LOADER */
 
 }
 .textos-header {
+    height: auto;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -219,14 +222,13 @@ LOADER */
 }
 
  .pensamiento {
-    
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     
     /* vh es la altura del dispositivo */
-    height: 60vh;  
-
+   
     /* fallback for old browsers */
 
     background-image: url(img/fondo2.jpg);
@@ -336,7 +338,7 @@ h4{
 
 
 .donde {
-    height: 100vh;
+    height: auto;
     background-image: url(img/fondo5.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -505,7 +507,7 @@ h4{
 
 
 .padres{
-    height: 110vh;
+    height: auto;
     background-image: url(img/fondo2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -766,15 +768,10 @@ footer{
     
     }
 
-    
     .img-principal{
-   
-       
-        width: 100%;
 
-    
-
-    }
+      width: 100%;
+}
 
     .menu-navegacion{
         width: 50vw;
@@ -841,6 +838,7 @@ footer{
     
     
     }
+
     
     .head{
 
