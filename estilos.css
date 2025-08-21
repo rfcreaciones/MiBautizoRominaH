@@ -23,7 +23,7 @@ body{
 
 .img-principal{
     position:relative;
-    bottom: 200px;
+    bottom: 0px;
     
 }
 
@@ -918,6 +918,7 @@ footer{
 
 
 }
+
 
 
 
