@@ -20,6 +20,12 @@ body{
 
 }
 
+.img-principal{
+    position:relative;
+    bottom: 250px;
+    
+}
+
 .loader{
     background: white;
     width: 100%;
@@ -38,7 +44,7 @@ LOADER */
 
 .lds-heart {
     /* change color here */
-    color: #a9e677
+    color: #F893FF
   }
 .lds-heart,
 .lds-heart div,
@@ -107,7 +113,7 @@ LOADER */
 
 
 .mensaje{
-    color: #a9e677;
+    color: #F893FF;
     font-size: 20px;
     text-align: center;
     animation: ms .5s alternate infinite ease-in-out;
@@ -142,8 +148,8 @@ LOADER */
 /* animacion de encabezado CONTADOR */
 .encabezado{
 
-    color:#007bff;
-    font-family: "Jokerman", cursive;
+    color:#F893FF;
+    font-family: 'Bisney', sans-serif;
     text-align: center;
     /* font-size: 55px; */
     background-color: #eaeee8;
@@ -170,8 +176,8 @@ LOADER */
     
             background: rgba(255,255,255,.4);
             backdrop-filter: blur(5px);
-            font-size: 20px;
-            color:#473d02ec;
+            font-size: 15px;
+            color:#F893FF;
         }
         
     }
@@ -248,7 +254,12 @@ h2{
 
 h3{
 
-    font-family: 'Dancing Script', cursive;
+    
+    font-family: 'Bisney', sans-serif;
+    color:#27ADF5;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
 
 }
 h4{
@@ -287,7 +298,7 @@ h4{
     border-radius: 5px;
     border: none;
     background-size: 120% auto;
-    background-image: linear-gradient(315deg, rgb(9, 152, 248) 0%, #00344c 75%);
+    background-image: linear-gradient(315deg, rgb(241, 83, 223) 0%, #F893FF 75%);
   }
   .css-button-gradient--3:hover {
     background-position: right center;
@@ -303,30 +314,30 @@ h4{
 .textos-alert-inicio{
     font-size: 33px;
     font-weight:lighter;
-    color:#002E6E;
-    font-family: 'Dancing Script', cursive;
+    color:#F893FF;
+  font-family: 'Bisney', sans-serif;
 }
 
 .textos-alert-inicio-T2{
     font-size: 40px;
     font-weight:lighter;
-    color:#cf352e;
-    font-family: "Jokerman", cursive;
+    color:#F893FF;
+    font-family: 'Shine Bubble Deco', sans-serif;
     text-align: center;
 }
 
 .textos-alert-inicio-T3{
     font-size: 14px;
     
-    color:#000000;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#27ADF5;
+    font-family: 'Shine Bubble Deco', sans-serif;
     text-transform: uppercase;
 }
 
 
 .donde {
     height: 100vh;
-    background-image: url(img/fondo3.jpg);
+    background-image: url(img/fondo5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -360,10 +371,12 @@ h4{
 
 .Jokerman {
 
-    font-family: 'Jokerman', sans-serif;
+    font-family: 'Bisney', sans-serif;
+    color: #eb3ef7;
     font-weight: 200;
     font-style: normal;
-    font-size: 40px;
+    font-size: 50px;
+    
   }
 
 .contenedor-servicio{
@@ -407,7 +420,7 @@ h4{
 
 .n-service{
     margin-bottom: 7px;
-    color: #9f8ad0;
+    color: #27ADF5;
 
 }
 
@@ -427,7 +440,7 @@ h4{
 
 .gallery{
     
-   background-image: url(img/fondo3.jpg);
+   background-image: url(img/fondo5.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -449,6 +462,7 @@ h4{
     box-shadow: 0 0 6px rgba(0, 0, 0, .6);
     cursor: pointer;
 }
+
 
 
 .imagen-light{
@@ -590,6 +604,18 @@ footer{
 
 }
 
+.donde-lugar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, #ffffff67 0%, hsla(0, 0%, 97%, 0.493) 100%);
+    border-radius: 30px;
+    text-align: center;
+}
+
+
 .confirmacion-servicio{
     width: 80%;
     display: flex;
@@ -597,7 +623,7 @@ footer{
     justify-content: space-evenly;
     align-items: center;
 
-    background-image: url(img/confimacion.jpg);
+    background-image: url(img/confirmacion.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
