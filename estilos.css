@@ -23,7 +23,7 @@ body{
 
 .img-principal{
     position:relative;
-    bottom: 200px;
+    bottom: 150px;
     
 }
 
@@ -394,6 +394,11 @@ h4{
 }
 .contenedor-servicio img{
     width: 40%;
+    animation: movimiento 2.5s linear infinite;
+
+}
+.donde-lugar img{
+    width: 60%;
     animation: movimiento 2.5s linear infinite;
 
 }
@@ -913,8 +918,6 @@ footer{
 
 
 }
-
-
 
 
 

@@ -5,7 +5,7 @@
 Swal.fire({
 	// title:'Reserva el Día',
 	//text: '',
-	html:'<p class="textos-alert-inicio">Axel Hernández Vázquez y Daniela Ortega Avila</p><br><p class="textos-alert-inicio-T3">Tiene el honor de invitar a usted y a su apreciable familia al Bautizo y 1° Aniversario de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Romina Hernández Ortega</p></div>',
+	html:'<p class="textos-alert-inicio">Axel Hernández Vázquez y Daniela Ortega Avila</p><br><p class="textos-alert-inicio-T3">Tenemos el honor de invitar a usted y a su apreciable familia al Bautizo y 1° Aniversario de nuestra hija:</p><br><p class="textos-alert-inicio-T2">Romina Hernández Ortega</p></div>',
 	//icon:'success'
 	confirmButtonText:'Abrir Invitación',
 	confirmButtonColor: "#F893FF",
