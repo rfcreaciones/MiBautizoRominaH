@@ -187,7 +187,7 @@ LOADER */
  */
 
 
-.header{
+.encabezado{
     height: 100vh;
     /* 02 */
     background-image: url(img/fondo5.png);
@@ -918,6 +918,7 @@ footer{
 
 
 }
+
 
 
 
