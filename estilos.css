@@ -187,20 +187,20 @@ LOADER */
  */
 
 
-.principal{
+.header{
     height: 100vh;
     /* 02 */
-    background-image: url(img/fondo5.png);
+    background-image: url(img/foto-principal.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
  
-     display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
-    position: relative;
+    position: relative; */
 }
 
 
@@ -777,6 +777,10 @@ footer{
     
     }
 
+    .img-principal{
+
+      width: 100%;
+}
 
     .menu-navegacion{
         width: 50vw;
@@ -918,13 +922,6 @@ footer{
 
 
 }
-
-
-
-
-
-
-
 
 
 
