@@ -190,7 +190,7 @@ LOADER */
 .header{
     height: 100vh;
     /* 02 */
-    background-image: url(img/foto-principal2.jpg);
+    background-image: url(img/foto-principal.jpg);
      background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -208,7 +208,7 @@ LOADER */
     justify-content: center;
     text-align: center;
     align-items: center;
-    color: #fff;
+
 
 }
 .textos-header {
@@ -770,7 +770,7 @@ footer{
         justify-content: center;
         text-align: center;
         align-items: center;
-        color: #fff;
+       
     
     }
 
@@ -857,7 +857,7 @@ footer{
         justify-content: center;
         text-align: center;
         align-items: center;
-        color: #fff;
+      
     
     }
 
@@ -922,7 +922,6 @@ footer{
 
 
 }
-
 
 
 
