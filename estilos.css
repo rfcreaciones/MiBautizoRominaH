@@ -190,8 +190,8 @@ LOADER */
 .header{
     height: 100vh;
     /* 02 */
-    background-image: url(img/fondo10.jpeg);
-    background-size: cover ;
+    background-image: url(img/foto-principal.jpg);
+     background-size: auto 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
@@ -760,17 +760,7 @@ footer{
 
 @media screen and (max-width: 800px){
 
-    .header{
-    height: 100vh;
-    /* 02 */
-    background-image: url(img/fondo10.jpeg);
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
- 
-   
-}
+
 
     .head{
 
@@ -846,17 +836,7 @@ footer{
 @media screen and (max-width: 500px){
 
 
-    .header{
-    height: 100vh;
-    /* 02 */
-       background-image: url(img/fondo10.jpeg);
-    background-size: cover ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
- 
-   
-}
+
 
     .mensaje{
         
