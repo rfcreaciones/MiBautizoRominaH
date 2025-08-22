@@ -191,7 +191,7 @@ LOADER */
     height: 100vh;
     /* 02 */
     background-image: url(img/foto-principal.jpg);
-     background-size: auto 100vh;
+    background-size: cover ;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
@@ -208,7 +208,7 @@ LOADER */
     justify-content: center;
     text-align: center;
     align-items: center;
-
+    color: #fff;
 
 }
 .textos-header {
@@ -761,7 +761,6 @@ footer{
 @media screen and (max-width: 800px){
 
 
-
     .head{
 
         height: 100%;
@@ -770,7 +769,7 @@ footer{
         justify-content: center;
         text-align: center;
         align-items: center;
-       
+        color: #fff;
     
     }
 
@@ -835,9 +834,6 @@ footer{
 
 @media screen and (max-width: 500px){
 
-
-
-
     .mensaje{
         
         font-size: 20px;
@@ -857,7 +853,7 @@ footer{
         justify-content: center;
         text-align: center;
         align-items: center;
-      
+        color: #fff;
     
     }
 
