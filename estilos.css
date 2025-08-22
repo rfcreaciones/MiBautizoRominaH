@@ -196,7 +196,11 @@ LOADER */
     background-size: cover;
     background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
  
-   
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
 }
 
 
@@ -914,6 +918,7 @@ footer{
 
 
 }
+
 
 
 
