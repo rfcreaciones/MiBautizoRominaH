@@ -191,16 +191,12 @@ LOADER */
     height: 100vh;
     /* 02 */
     background-image: url(img/foto-principal.jpg);
+    background-size: cover ;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
  
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    position: relative;
+   
 }
 
 
@@ -764,6 +760,17 @@ footer{
 
 @media screen and (max-width: 800px){
 
+    .header{
+    height: 100vh;
+    /* 02 */
+    background-image: url(img/foto-principal.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
+ 
+   
+}
 
     .head{
 
@@ -837,6 +844,19 @@ footer{
 
 
 @media screen and (max-width: 500px){
+
+
+    .header{
+    height: 100vh;
+    /* 02 */
+    background-image: url(img/foto-principal.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;  /* la imagen de fondo no se mueve con el scrooll */
+ 
+   
+}
 
     .mensaje{
         
@@ -922,7 +942,6 @@ footer{
 
 
 }
-
 
 
 
