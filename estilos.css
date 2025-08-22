@@ -188,7 +188,7 @@ LOADER */
 
 
 .header{
-    height: 100vh;
+    height: auto;
     /* 02 */
     background-image: url(img/foto-principal.jpg);
     background-repeat: no-repeat;
@@ -914,6 +914,7 @@ footer{
 
 
 }
+
 
 
 
