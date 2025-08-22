@@ -188,9 +188,9 @@ LOADER */
 
 
 .header{
-    height: auto;
+    height: 100vh;
     /* 02 */
-    background-image: url(img/foto-principal.jpg);
+    background-image: url(img/fondo3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -914,6 +914,7 @@ footer{
 
 
 }
+
 
 
 
